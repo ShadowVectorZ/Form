@@ -82,13 +82,15 @@ h3{
 
 fieldset{
     height:12%;
+    width:90%;
     display:flex
 }
 
 
 label{
     margin-right:10px;
-    margin-left:5px
+    margin-left:5px;
+    font-size:90%
 }
 
 
@@ -98,7 +100,8 @@ label{
 
 
 input{
-    height:75%
+    height:75%;
+    width:30%
 }
 
 #create{
