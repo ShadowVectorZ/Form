@@ -73,7 +73,8 @@ p{
     
     width:100%;
     height:30%;
-    background:rgba(231, 220, 210, 0.788)
+    background:rgba(127, 243, 114, 0.788);
+    font-weight:bold
 
 }
 
@@ -128,5 +129,15 @@ input{
     
     width:100%;
     height:30%;
-    background:rgb(233, 222, 222)
+    background:rgb(139, 240, 117)
+}
+
+button{
+    margin-left:20px;
+    margin-top:20px;
+    height:40px;
+    width:150px;
+    background-color:#596D48;
+    color:white;
+    border-radius:10px
 }
