@@ -99,10 +99,21 @@ label{
 }
 
 
+
+input:focus{
+    border:solid 2px blue;
+    outline:none;
+    box-shadow:grey 3px 3px
+}
+
+
 input{
     height:75%;
-    width:30%
+    width:30%;
+    
+    
 }
+
 
 #create{
     border:solid 2px black;
