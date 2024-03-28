@@ -58,19 +58,27 @@ flex-direction:column
 form{
     height:100%;
     width:100%;
-    
+}
+
+
+
+
+p{
+    margin-left:20px;
+    margin-top:20px
 }
 
 
 #message{
-    border:solid 2px black;
+    
     width:100%;
-    height:30%
+    height:30%;
+    background:rgba(231, 220, 210, 0.788)
 
 }
 
 #input{
-    border:solid 2px black;
+    
     width:100%;
     height:40%;
 
@@ -83,7 +91,8 @@ h3{
 fieldset{
     height:12%;
     width:90%;
-    display:flex
+    display:flex;
+    border:0
 }
 
 
@@ -116,7 +125,8 @@ input{
 
 
 #create{
-    border:solid 2px black;
+    
     width:100%;
-    height:27.5%
+    height:30%;
+    background:rgb(233, 222, 222)
 }
