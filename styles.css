@@ -41,6 +41,18 @@ width:40%;
     font-size:50px
 }
 
+#credit{
+    position:absolute;
+    bottom:10px;
+    left:5px;
+    color:white;
+    font-size:15px
+}
+
+a{
+    color:white
+}
+
 #odin{
     height:90%;
     width:70px;
