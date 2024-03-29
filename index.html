@@ -56,9 +56,11 @@
                 <label id="confirm-pass" for="confirm-password">Confirm Password</label>
                 <input type="password" id="confirm-password" name="confirm-password"required>
                 </fieldset>
+
+                <div id="warning"></div>
             </div>
             <div id="create">
-                <button type="submit">Create Account</button>
+                <button id='submit'>Create Account</button>
                 <p>Already have an account? Log in</p>
             </div>
         
@@ -80,18 +82,22 @@ let password=document.querySelector('#password')
 let confirmPassword=document.querySelector('#confirm-password')
 let passwordValue=password.value
 let confirmPasswordValue=confirmPassword.value
-
+let warning=document.querySelector('#warning')
 if(!(passwordValue===confirmPasswordValue)){
     password.setCustomValidity(message);
     confirmPassword.setCustomValidity(message)
+    warning.textContent='Passwords do not match'
 }
 
 else {
     password.setCustomValidity('');
     confirmPassword.setCustomValidity('')
+  
 }
 
     }
+    const btn = document.querySelector('#submit');
+btn.addEventListener('click', checkPassword);
 
 </script>
 
