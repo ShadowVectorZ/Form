@@ -117,12 +117,21 @@ label{
     font-size:90%
 }
 
+#warning{
+    margin-left:20px;
+    color:red
+}
 
 #confirm-pass,#phone, #name-last{
     margin-left:50px
 }
 
-#password,#confirm-password:invalid{
+#password:invalid{
+    border:2px solid red;
+    outline:none
+}
+
+#confirm-password:invalid{
     border:2px solid red;
     outline:none
 }
